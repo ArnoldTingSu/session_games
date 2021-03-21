@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+}
+h3 {
+    width: 160px;
+    padding-left: 5px; 
+}
+
+.container {
+    display: flex;
+}
+
+.building {
+    text-align: center;
+    margin: 20px;
+    width: 175px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.log {
+    border: 1px solid black;
+    width: 400px;
+    margin: 20px;
+}
+
+.log p {
+    margin: 10px;
+    text-decoration: underline;
+}
+
+span {
+    border: 2px solid red;
+    padding: 2px;
+
+}
