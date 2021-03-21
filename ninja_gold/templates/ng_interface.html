@@ -40,11 +40,11 @@
         <p>Activity:</p>
         <ul>
             {% for activity in request.session.activity %}
-            {% if "lost" in activity %}
-            <li style=color:red>{{activity}}</li>
-            {% else %}
-            <li style=color:green>{{activity}}</li>
-            {% endif %}
+                {% if "lost" in activity %}
+                    <li style=color:red>{{activity}}</li>
+                {% else %}
+                    <li style=color:green>{{activity}}</li>
+                {% endif %}
             {% endfor %}
         </ul>
     </div>
